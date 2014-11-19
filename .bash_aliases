@@ -40,6 +40,7 @@ alias gnb='git checkout -b';
 alias gd='git diff';
 alias ga='git add';
 alias gc='git commit -m';
+alias gp='git push origin';
 
 # vimrc editing
 alias ve='vim ~/.vimrc'
