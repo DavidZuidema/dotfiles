@@ -36,11 +36,15 @@ alias hg='history | grep';
 # git aliases
 alias gs='git status';
 alias gb='git branch';
-alias gnb='git checkout -b';
+alias gbd='git branch -d';
+alias gbn='git checkout -b';
 alias gd='git diff';
 alias ga='git add';
 alias gc='git commit -m';
 alias gp='git push origin';
+alias gl='git pull origin';
+alias gct='git checkout --track';
+alias gru='git remote update';
 
 # vimrc editing
 alias ve='vim ~/.vimrc'
