@@ -53,6 +53,10 @@ alias be='vim ~/.bash_exports'
 # Some how I always end up blowing away my public key by accident
 alias extractpub="ssh-keygen -f id_rsa -y > id_rsa.pub"
 
+# Changing ssh profile loaded
+alias griis="ssh-add -D && ssh-add ~/.ssh/riis/id_rsa"
+alias gdz="ssh-add -D && ssh-add ~/.ssh/dz/id_rsa"
+
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
