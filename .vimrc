@@ -13,6 +13,8 @@ set backspace=indent,eol,start
 set autoindent
 
 set showmatch
+
+" Use the same symbols as TextMate for tabstops and EOLs
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 
 set nowrap
@@ -36,4 +38,11 @@ if !has('gui_running')
         let g:solarized_termcolors=16
     endif
 endif
+
+set ruler
+set laststatus=2
+set confirm
+set visualbell
+
+set tags=./tags;/
 
