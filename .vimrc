@@ -17,6 +17,8 @@ set number
 
 syntax on
 
+:command C let @/=""
+
 set tags=./tags;/
 
 " Use the same symbols as TextMate for tabstops and EOLs
