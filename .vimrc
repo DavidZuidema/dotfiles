@@ -20,7 +20,6 @@ set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set nowrap
 
 set background=dark
-colorscheme solarized
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
