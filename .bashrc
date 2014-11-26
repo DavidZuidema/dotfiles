@@ -27,6 +27,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
 fi
 
+if [ -f ~/.git-completion.bash ]; then
+	. ~/.git-completion.bash
+fi
 
 # pip should only run if there is a virtualenv currently activated
 #export PIP_REQUIRE_VIRTUALENV=true

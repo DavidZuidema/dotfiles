@@ -20,7 +20,6 @@ set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set nowrap
 
 set background=dark
-colorscheme solarized
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
@@ -43,6 +42,8 @@ set ruler
 set laststatus=2
 set confirm
 set visualbell
+
+:command C let @/=""
 
 set tags=./tags;/
 
