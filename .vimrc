@@ -43,7 +43,18 @@ set laststatus=2
 set confirm
 set visualbell
 
+" :C command will clear the current search buffer, unhighlighting the matches
 :command C let @/=""
 
 set tags=./tags;/
 
+if has("autocmd")
+	autocmd FileType html setlocal ts=4 sts=4 sw=4 expandtab
+	autocmd FileType css setlocal ts=4 sts=4 sw=4 expandtab
+	autocmd FileType javascript setlocal ts=4 sts=4 sw=4 expandtab
+
+	autocmd FileType c setlocal ts=8 sts=8 sw=8 noexpandtab
+endif
+
+" Remap file extension to different filetype
+" autocmd BufNewFile,BufRead *.rss setfiletype xml
