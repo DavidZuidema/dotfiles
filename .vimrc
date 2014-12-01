@@ -2,6 +2,8 @@ set nocompatible
 filetype indent plugin on
 syntax on
 
+set ts=4 sts=4 sw=4 expandtab 
+
 set hidden
 set wildmenu
 set showcmd
