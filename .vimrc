@@ -17,7 +17,6 @@ set showmatch
 " Use the same symbols as TextMate for tabstops and EOLs
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 
-
 set background=dark
 colorscheme solarized
 
