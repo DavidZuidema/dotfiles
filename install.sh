@@ -8,7 +8,7 @@
 dir=~/dotfiles
 
 # list of files/folders to symlink in homedir
-files=".bashrc .bash_profile .bash_aliases .bash_prompt .bash_exports .vimrc .tmux.conf .git-completion.bash"
+files=".bashrc .bash_profile .bash_aliases .bash_prompt .bash_exports .vimrc .tmux.conf .git-completion.bash .vim"
 
 # change to the dotfiles directory
 cd $dir

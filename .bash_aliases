@@ -79,5 +79,6 @@ alias reload="exec $SHELL -l"
 # Renew DHCP lease
 alias renew="sudo ipconfig set en0 BOOTP && sudo ipconfig set en0 DHCP"
 
-
+# gcc compiler flags
+alias gccc="gcc -ansi -pedantic -Wall -O2"
 
