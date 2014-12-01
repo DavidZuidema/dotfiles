@@ -77,7 +77,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # Renew DHCP lease
-alias renew="sudo ipconfig set en0 BOOTP && sudo ipconfig set en0 DHCP"
+alias renew='echo "add State:/Network/Interface/en0/RefreshConfiguration temporary" | sudo scutil'
 
 # gcc compiler flags
 alias gccc="gcc -ansi -pedantic -Wall -O2"
