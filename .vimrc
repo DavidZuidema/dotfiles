@@ -58,4 +58,11 @@ if has("autocmd")
 endif
 
 " Remap file extension to different filetype
-" autocmd BufNewFile,BufRead *.rss setfiletype xml
+" autocmd BufNewFile,BufRead *.rss setfiletype xmr
+
+" Disable the arrow keys to help retrain myself
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
