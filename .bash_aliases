@@ -79,6 +79,9 @@ alias reload="exec $SHELL -l"
 # Renew DHCP lease
 alias renew='echo "add State:/Network/Interface/en0/RefreshConfiguration temporary" | sudo scutil'
 
+# Change my network hostname
+alias setHostName="sudo scutil --set HostName"
+
 # gcc compiler flags
 alias gccc="gcc -ansi -pedantic -Wall -O2"
 
