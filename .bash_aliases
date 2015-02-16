@@ -16,6 +16,12 @@ alias p="cd ~/projects"
 alias g="git"
 alias gn='grep -ln';
 
+# mkdir AND cd
+function mkdir
+{
+  command mkdir $1 && cd $1
+}
+
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
 
