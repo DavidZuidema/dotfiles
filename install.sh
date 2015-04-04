@@ -8,7 +8,7 @@
 dir=~/dotfiles
 
 # list of files/folders to symlink in homedir
-files=".bashrc .bash_profile .bash_aliases .bash_prompt .bash_exports .vimrc .tmux.conf .git-completion.bash .vim"
+files=".bashrc .bash_profile .bash_aliases .bash_prompt .bash_exports .vimrc .tmux.conf .git-completion.bash .vim .emacs .emacs.d"
 
 # change to the dotfiles directory
 cd $dir
@@ -16,7 +16,7 @@ cd $dir
 # create symlinks 
 for file in $files; do
 	echo "$file"
-	rm -f ~/$file
+	rm -rf ~/$file
 	ln -s $dir/$file ~/$file
 done
 source ~/.bash_profile
