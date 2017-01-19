@@ -69,6 +69,6 @@ noremap <Right> <NOP>
 " I'm not sure if this is helpful. Probably less productive in the long run,
 " but good for training. I doubt we need to be using these keys as frequently
 " as we do
-noremap h <NOP>
-noremap l <NOP>
+"noremap h <NOP>
+"noremap l <NOP>
 

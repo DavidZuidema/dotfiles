@@ -2,9 +2,8 @@
 # dz .bash_exports
 #
 
-export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
 export PATH=/usr/local/bin:$PATH
 
 export CLICOLOR=1;
 export EDITOR='vim'
-export ANDROID_HOME=/usr/local/opt/android-sdk
+

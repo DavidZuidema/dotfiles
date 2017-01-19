@@ -1,0 +1,4 @@
+#
+# Falcon Project - Ubuntu 14.04
+#
+export PATH=$HOME/dev_tools:$PATH

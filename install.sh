@@ -19,5 +19,13 @@ for file in $files; do
 	rm -rf ~/$file
 	ln -s $dir/$file ~/$file
 done
-source ~/.bash_profile
 
+# optional project specific settings
+if [ ! -z "$1" ]
+    then
+        echo "projects/$1"
+        rm -rf ~/.bash_project
+        ln -s $dir/projects/.${1} ~/.bash_project
+fi
+
+source ~/.bash_profile
