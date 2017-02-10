@@ -17,7 +17,7 @@ set autoindent
 set showmatch
 
 " Use the same symbols as TextMate for tabstops and EOLs
-set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set lcs=tab:❭\ ,trail:█,eol:¬,nbsp:_
 
 set background=dark
 colorscheme solarized
@@ -54,7 +54,7 @@ if has("autocmd")
 	autocmd FileType css setlocal ts=4 sts=4 sw=4 expandtab
 	autocmd FileType javascript setlocal ts=4 sts=4 sw=4 expandtab
 
-	autocmd FileType c setlocal ts=8 sts=8 sw=8 noexpandtab
+	autocmd FileType c setlocal ts=4 sts=4 sw=4 expandtab
 endif
 
 " Remap file extension to different filetype
