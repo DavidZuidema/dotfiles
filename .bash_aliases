@@ -19,6 +19,9 @@ alias hg='history | grep';
 alias gs='git status';
 alias gb='git branch';
 alias gd='git diff';
+alias gap='git add -p';
+alias gc='git commit';
+alias gpom='git push origin master';
 
 # vimrc editing
 alias vrc='vim ~/.vimrc'
